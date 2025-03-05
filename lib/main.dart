@@ -33,7 +33,7 @@ class MyApp extends StatelessWidget {
         BlocProvider(create: (context) => GetdataBloc()),
       ],
       child: MaterialApp(
-        title: 'Flutter Demo',
+        title: 'Flutter Example',
         theme: ThemeData(
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
@@ -44,5 +44,5 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-/// flutter packages pub run build_runner build 
+/// flutter packages pub run build_run build 
 /// /// flutter packages pub run build_runner build --delete-conflicting-outputs
